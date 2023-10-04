@@ -1,0 +1,2672 @@
+[
+  {
+    "team_member": [
+      {
+        "id": "4b48a323-d956-45aa-8335-0809b487b088",
+        "name": "John Doe",
+        "position": "Manager",
+        "joined_date": "2023-10-04T04:10:27.912Z",
+        "experience": 74102,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T17:17:39.709Z",
+        "updated_at": "2023-10-04T19:21:52.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed288ba4-f975-465d-b182-0213728c94d2",
+        "name": "Jane Smith",
+        "position": "Developer",
+        "joined_date": "2023-10-04T22:26:02.501Z",
+        "experience": 485,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T23:18:40.697Z",
+        "updated_at": "2023-10-04T08:50:21.789Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4e8fb83-e866-4b14-afaa-ed65b8923fe1",
+        "name": "Michael Brown",
+        "position": "Designer",
+        "joined_date": "2023-10-04T15:27:29.628Z",
+        "experience": 79133,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T19:46:53.836Z",
+        "updated_at": "2023-10-04T18:43:05.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a27be7c5-7016-46ea-9aee-90c82ded2f76",
+        "name": "Sarah Jones",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T10:46:37.834Z",
+        "experience": 117,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T04:56:47.717Z",
+        "updated_at": "2023-10-04T23:25:03.145Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "572e6721-53b6-4ecf-8308-069dd233906c",
+        "name": "Robert Wilson",
+        "position": "Sales Representative",
+        "joined_date": "2023-10-04T11:00:56.321Z",
+        "experience": 42013,
+        "qualification": "Professional Training",
+        "created_at": "2023-10-04T02:45:20.225Z",
+        "updated_at": "2023-10-04T22:40:39.527Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "ba9e5f91-55fc-49fb-a678-2f164a39ce38",
+        "name": "Web Development",
+        "description": "Customized solutions tailored to your needs",
+        "service_type": "Consulting",
+        "price": 97587,
+        "duration": 55123,
+        "created_at": "2023-10-04T19:25:11.622Z",
+        "updated_at": "2023-10-04T06:57:55.506Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "273ede13-6960-4b88-91ef-4a3515669827",
+        "name": "Mobile App Development",
+        "description": "Cutting-edge technology for optimal performance",
+        "service_type": "Development",
+        "price": 64857,
+        "duration": 85831,
+        "created_at": "2023-10-04T04:29:38.106Z",
+        "updated_at": "2023-10-04T12:58:30.516Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "efcbe626-acd1-4c3c-b7b9-5b54bb6929f4",
+        "name": "Data Analytics",
+        "description": "Data-driven insights for informed decision-making",
+        "service_type": "Analytics",
+        "price": 76348,
+        "duration": 40373,
+        "created_at": "2023-10-04T21:09:31.882Z",
+        "updated_at": "2023-10-04T07:20:04.574Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "890e3fba-c62b-4dca-a4c9-775f4c673c33",
+        "name": "Cloud Computing",
+        "description": "Scalable infrastructure for seamless operations",
+        "service_type": "Infrastructure",
+        "price": 29098,
+        "duration": 73984,
+        "created_at": "2023-10-04T19:18:15.701Z",
+        "updated_at": "2023-10-04T15:25:59.964Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "b0ac6b55-b073-447b-aa30-90fd18024b8e",
+        "name": "Digital Marketing",
+        "description": "Strategic marketing campaigns for maximum reach",
+        "service_type": "Marketing",
+        "price": 96486,
+        "duration": 73056,
+        "created_at": "2023-10-04T00:37:40.012Z",
+        "updated_at": "2023-10-04T16:53:34.566Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "e37868ac-0e1b-45a0-b6bb-3221ed9b15ac",
+        "name": "John Doe",
+        "contact": "john.doe@example.com",
+        "address": "123 Main Street",
+        "joined_date": "2023-10-04T21:34:34.470Z",
+        "created_at": "2023-10-04T01:32:23.366Z",
+        "updated_at": "2023-10-04T02:49:12.141Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "694fdb01-4105-442d-8346-7d9b351cf13b",
+        "name": "Jane Smith",
+        "contact": "jane.smith@example.com",
+        "address": "456 Elm Avenue",
+        "joined_date": "2023-10-04T01:44:18.020Z",
+        "created_at": "2023-10-04T14:41:47.712Z",
+        "updated_at": "2023-10-04T15:31:49.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce5f656a-9509-4748-bab1-d90312bc7790",
+        "name": "Michael Brown",
+        "contact": "michael.brown@example.com",
+        "address": "789 Oak Lane",
+        "joined_date": "2023-10-04T14:59:55.290Z",
+        "created_at": "2023-10-04T17:04:26.577Z",
+        "updated_at": "2023-10-04T08:56:17.978Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "854f6651-da03-4b99-9e79-526f5632bbe3",
+        "name": "Sarah Jones",
+        "contact": "sarah.jones@example.com",
+        "address": "321 Maple Road",
+        "joined_date": "2023-10-04T17:05:53.116Z",
+        "created_at": "2023-10-04T07:00:08.192Z",
+        "updated_at": "2023-10-04T04:10:20.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f19e062f-3276-4a06-aafc-635371f3618d",
+        "name": "Robert Wilson",
+        "contact": "robert.wilson@example.com",
+        "address": "654 Pine Boulevard",
+        "joined_date": "2023-10-04T17:16:39.948Z",
+        "created_at": "2023-10-04T09:42:47.679Z",
+        "updated_at": "2023-10-04T16:31:15.584Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "7a769326-6517-47db-811b-28c21c7dad66",
+        "name": "John Doe",
+        "contact": "john.doe@example.com",
+        "address": "123 Main Street",
+        "joined_date": "2023-10-04T15:37:42.296Z",
+        "created_at": "2023-10-04T14:44:53.483Z",
+        "updated_at": "2023-10-04T08:54:45.235Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa01cca2-74ce-4daa-8b84-6f233957c5ea",
+        "name": "Jane Smith",
+        "contact": "jane.smith@example.com",
+        "address": "456 Elm Avenue",
+        "joined_date": "2023-10-04T15:19:36.962Z",
+        "created_at": "2023-10-04T03:36:12.764Z",
+        "updated_at": "2023-10-04T08:54:42.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d1a4cf8-a016-4892-ac9f-358852f1cb13",
+        "name": "Michael Brown",
+        "contact": "michael.brown@example.com",
+        "address": "789 Oak Lane",
+        "joined_date": "2023-10-04T13:54:29.482Z",
+        "created_at": "2023-10-04T22:30:59.737Z",
+        "updated_at": "2023-10-04T19:10:34.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f47f8138-9f16-4c6e-9be4-6042b69b344d",
+        "name": "Sarah Jones",
+        "contact": "sarah.jones@example.com",
+        "address": "321 Maple Road",
+        "joined_date": "2023-10-04T20:52:58.155Z",
+        "created_at": "2023-10-04T04:18:26.651Z",
+        "updated_at": "2023-10-04T02:28:13.428Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97b955ec-f8d7-4ca8-bca6-7b1b2bace1c5",
+        "name": "Robert Wilson",
+        "contact": "robert.wilson@example.com",
+        "address": "654 Pine Boulevard",
+        "joined_date": "2023-10-03T23:31:00.065Z",
+        "created_at": "2023-10-04T00:27:53.620Z",
+        "updated_at": "2023-10-04T16:35:43.552Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "17531db8-116a-46f2-9314-4457a4b4331b",
+        "email": "Barrett78@roq.tech",
+        "firstName": "Orlando",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4941326",
+        "tenantId": null
+      },
+      {
+        "reference": "e6cd350a-526f-46aa-ae43-70dbfa8cb9e2",
+        "email": "Sibyl_Rodriguez60@roq.tech",
+        "firstName": "Emelie",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63763430",
+        "tenantId": null
+      },
+      {
+        "reference": "8f7f7daa-9ab2-410f-a1c5-00f550a296df",
+        "email": "Fleta_Bernier@roq.tech",
+        "firstName": "Chase",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13623433",
+        "tenantId": null
+      },
+      {
+        "reference": "f712401f-76d7-4f3e-a712-bb509c063024",
+        "email": "Sarina.Welch31@roq.tech",
+        "firstName": "Minnie",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34505090",
+        "tenantId": null
+      },
+      {
+        "reference": "0bf0450b-250a-4b38-a1ac-f2522ce2ae3a",
+        "email": "Vivienne34@roq.tech",
+        "firstName": "Tristin",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31339940",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "e0ff7e41-4ee0-427f-b4f8-341ab13e8321",
+        "name": "Alex Johnson",
+        "position": "Manager",
+        "joined_date": "2023-10-04T14:45:28.070Z",
+        "experience": 48048,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T00:48:06.910Z",
+        "updated_at": "2023-10-04T01:35:26.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08f7ab9e-3cec-4134-b486-5e09714ecf12",
+        "name": "Emily Davis",
+        "position": "Developer",
+        "joined_date": "2023-10-04T03:56:46.161Z",
+        "experience": 20805,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T22:23:05.946Z",
+        "updated_at": "2023-10-04T14:17:12.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8ddbaee-337a-477e-847b-a127cc216907",
+        "name": "Ryan Thompson",
+        "position": "Designer",
+        "joined_date": "2023-10-04T11:25:41.073Z",
+        "experience": 23362,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T06:51:40.850Z",
+        "updated_at": "2023-10-04T20:05:54.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0324afc-0065-4cd1-92b0-8fa2591d7816",
+        "name": "Olivia Martinez",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T23:00:02.999Z",
+        "experience": 26074,
+        "qualification": "Certified Professional",
+        "created_at": "2023-10-03T23:43:53.754Z",
+        "updated_at": "2023-10-04T03:42:09.596Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f48f835-fd32-4f78-9065-6c3a3f2af0c4",
+        "name": "Jacob Clark",
+        "position": "Marketing Specialist",
+        "joined_date": "2023-10-04T00:54:25.280Z",
+        "experience": 1198,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T12:49:13.779Z",
+        "updated_at": "2023-10-04T17:24:44.483Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "dd4b5e7e-003c-434c-9f99-a4b8df1c7e84",
+        "name": "Web Development",
+        "description": "Creating stunning websites",
+        "service_type": "Consulting",
+        "price": 46659,
+        "duration": 84109,
+        "created_at": "2023-10-04T15:35:40.171Z",
+        "updated_at": "2023-10-04T10:13:19.631Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "ce5e1823-b1b8-48cc-981b-9ae92782f985",
+        "name": "Mobile App Development",
+        "description": "Building innovative mobile apps",
+        "service_type": "Development",
+        "price": 388,
+        "duration": 18834,
+        "created_at": "2023-10-04T23:27:31.719Z",
+        "updated_at": "2023-10-04T15:40:33.479Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "dc031a57-55a5-4da1-accb-5fbb2f2b8b0f",
+        "name": "Digital Marketing",
+        "description": "Driving online growth",
+        "service_type": "Marketing",
+        "price": 91430,
+        "duration": 81877,
+        "created_at": "2023-10-04T17:25:07.794Z",
+        "updated_at": "2023-10-04T05:44:39.104Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "5bfdeea7-0816-4ea7-895f-32a9ec08fb83",
+        "name": "Cloud Consulting",
+        "description": "Optimizing cloud infrastructure",
+        "service_type": "Design",
+        "price": 59255,
+        "duration": 27761,
+        "created_at": "2023-10-04T20:03:05.483Z",
+        "updated_at": "2023-10-04T00:31:38.786Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "5b98f9a7-5842-49f5-9a09-62f868b19635",
+        "name": "UI/UX Design",
+        "description": "Designing intuitive user interfaces",
+        "service_type": "Support",
+        "price": 83650,
+        "duration": 9014,
+        "created_at": "2023-10-04T02:39:05.104Z",
+        "updated_at": "2023-10-04T01:33:13.110Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "c5fd10a9-7268-446d-8078-1b57116f172a",
+        "name": "Robert Johnson",
+        "contact": "+1 123-456-7890",
+        "address": "123 Main St, Anytown",
+        "joined_date": "2023-10-04T03:13:14.562Z",
+        "created_at": "2023-10-04T22:18:48.483Z",
+        "updated_at": "2023-10-04T15:23:18.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7faa385-da1e-4c63-b37c-9d401bdaad5e",
+        "name": "Jessica Davis",
+        "contact": "+1 987-654-3210",
+        "address": "456 Elm St, Otherville",
+        "joined_date": "2023-10-04T12:58:45.268Z",
+        "created_at": "2023-10-04T07:27:41.372Z",
+        "updated_at": "2023-10-04T15:41:34.329Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e291054b-10d8-4829-8720-436cc4192c83",
+        "name": "Andrew Thompson",
+        "contact": "+44 1234-567890",
+        "address": "789 Oak St, Somewhere",
+        "joined_date": "2023-10-04T13:18:00.959Z",
+        "created_at": "2023-10-04T01:53:37.431Z",
+        "updated_at": "2023-10-04T05:34:30.529Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f4bbdd8-04f7-4965-a366-356e773cc151",
+        "name": "Sophia Martinez",
+        "contact": "+81 987-6543-210",
+        "address": "321 Pine St, Nowhere",
+        "joined_date": "2023-10-04T09:55:09.412Z",
+        "created_at": "2023-10-04T14:31:14.917Z",
+        "updated_at": "2023-10-04T05:37:12.515Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62ead9e5-74ab-494e-adf6-979311f720fc",
+        "name": "Matthew Clark",
+        "contact": "+61 1234-5678",
+        "address": "654 Maple St, Anywhere",
+        "joined_date": "2023-10-04T10:55:13.366Z",
+        "created_at": "2023-10-04T09:02:34.086Z",
+        "updated_at": "2023-10-04T02:01:56.891Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "4b7b686f-7f27-44bd-a706-30e7924d0c05",
+        "name": "Jennifer Johnson",
+        "contact": "+1 555-123-4567",
+        "address": "123 First St, Cityville",
+        "joined_date": "2023-10-04T16:34:29.467Z",
+        "created_at": "2023-10-04T11:13:16.228Z",
+        "updated_at": "2023-10-04T13:13:30.178Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7912cdff-391f-44d1-84dc-adbfd1c07e34",
+        "name": "Michael Davis",
+        "contact": "+1 555-987-6543",
+        "address": "456 Second St, Townsville",
+        "joined_date": "2023-10-04T17:38:39.949Z",
+        "created_at": "2023-10-04T10:09:07.901Z",
+        "updated_at": "2023-10-04T22:25:46.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60055146-e798-45be-bf9d-3442122b04ff",
+        "name": "Emily Thompson",
+        "contact": "+44 555-1234-5678",
+        "address": "789 Third St, Villageland",
+        "joined_date": "2023-10-04T04:56:51.724Z",
+        "created_at": "2023-10-04T15:25:53.194Z",
+        "updated_at": "2023-10-04T17:24:23.687Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46291917-0306-4316-9c07-442e9228c3e9",
+        "name": "Daniel Martinez",
+        "contact": "+81 555-9876-5432",
+        "address": "321 Fourth St, Hamletville",
+        "joined_date": "2023-10-04T13:48:33.071Z",
+        "created_at": "2023-10-04T02:07:05.256Z",
+        "updated_at": "2023-10-04T02:38:39.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ce16717-f56e-4c5a-aed3-89c9d5f3efaf",
+        "name": "Olivia Clark",
+        "contact": "+61 555-1234-5678",
+        "address": "654 Fifth St, Countryside",
+        "joined_date": "2023-10-04T09:20:15.289Z",
+        "created_at": "2023-10-04T04:31:34.590Z",
+        "updated_at": "2023-10-04T01:15:42.136Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0d805166-7d25-4fdf-ad9a-50751ecf683b",
+        "email": "Dillan29@roq.tech",
+        "firstName": "Marianna",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92b01ab0-cbfc-4850-8876-e5add359c528",
+        "email": "Brisa.Powlowski@roq.tech",
+        "firstName": "Tiara",
+        "lastName": "Osinski-Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67569835",
+        "tenantId": null
+      },
+      {
+        "reference": "de6fa6bf-e5e3-4e9b-8360-3c2278db63fd",
+        "email": "Dawson.Ratke@roq.tech",
+        "firstName": "Clair",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/333.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fee0fe1-006a-4389-9540-8bb0ba5a4f6a",
+        "email": "Nyasia_Stoltenberg-Russel@roq.tech",
+        "firstName": "Rubie",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/569.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "356d814b-c78b-4dd4-85c0-24b47b8be28e",
+        "email": "Richard79@roq.tech",
+        "firstName": "Amy",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/517.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "8ddd3dcb-6884-481c-b2e7-99618e133163",
+        "name": "John Doe",
+        "position": "Manager",
+        "joined_date": "2023-10-04T10:53:37.457Z",
+        "experience": 20709,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T05:11:02.232Z",
+        "updated_at": "2023-10-04T17:25:56.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44e061e8-60cd-4514-a485-a69cacbe27d6",
+        "name": "Jane Smith",
+        "position": "Developer",
+        "joined_date": "2023-10-04T02:55:10.491Z",
+        "experience": 73907,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T21:44:20.788Z",
+        "updated_at": "2023-10-04T00:56:20.704Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d8cc58f-9215-4d1d-aec5-0b83ff1e80de",
+        "name": "Michael Brown",
+        "position": "Designer",
+        "joined_date": "2023-10-04T01:45:38.640Z",
+        "experience": 64513,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T20:35:04.476Z",
+        "updated_at": "2023-10-04T02:31:55.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5435fd19-9ac2-4401-9021-411a6076d151",
+        "name": "Sarah Jones",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T09:32:34.863Z",
+        "experience": 78497,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T09:42:01.187Z",
+        "updated_at": "2023-10-04T10:06:33.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a695cfb-d3f0-4552-aea6-9ec5143f4bc9",
+        "name": "Robert Wilson",
+        "position": "Sales Executive",
+        "joined_date": "2023-10-04T04:32:44.801Z",
+        "experience": 19583,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T09:17:29.048Z",
+        "updated_at": "2023-10-04T12:58:19.877Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "85359182-5979-49e5-bc0d-b0d89a5567be",
+        "name": "Web Development",
+        "description": "Customized solutions for your business",
+        "service_type": "Software Development",
+        "price": 98358,
+        "duration": 79009,
+        "created_at": "2023-10-04T00:18:12.921Z",
+        "updated_at": "2023-10-04T04:29:24.540Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "a5049c8f-018d-4baa-89f5-64785235f9f9",
+        "name": "Mobile App Development",
+        "description": "Optimizing processes and improving efficiency",
+        "service_type": "Consulting",
+        "price": 80004,
+        "duration": 34735,
+        "created_at": "2023-10-04T19:16:00.055Z",
+        "updated_at": "2023-10-04T15:44:46.599Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "86f2f39a-db85-4746-b478-1024609d1ce9",
+        "name": "Data Analytics",
+        "description": "Unlocking insights from your data",
+        "service_type": "Analytics",
+        "price": 92267,
+        "duration": 13247,
+        "created_at": "2023-10-04T19:17:20.644Z",
+        "updated_at": "2023-10-04T13:35:38.789Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "ea442ac5-be5f-4a41-bbd3-3a341ce226e3",
+        "name": "Cloud Consulting",
+        "description": "Seamless integration with cloud platforms",
+        "service_type": "Design",
+        "price": 49003,
+        "duration": 13890,
+        "created_at": "2023-10-04T04:41:11.313Z",
+        "updated_at": "2023-10-04T20:34:40.103Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "a1397ba2-4c37-4518-b3c0-7961b9825d61",
+        "name": "UI/UX Design",
+        "description": "Creating engaging and user-friendly interfaces",
+        "service_type": "Integration",
+        "price": 75351,
+        "duration": 41710,
+        "created_at": "2023-10-04T09:59:56.884Z",
+        "updated_at": "2023-10-04T17:13:39.021Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "ef28f648-f498-40a7-b3fb-16df7e5970de",
+        "name": "John Doe",
+        "contact": "123-456-7890",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T13:47:12.185Z",
+        "created_at": "2023-10-04T06:53:51.147Z",
+        "updated_at": "2023-10-04T16:15:23.480Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "542d21eb-24f6-4f9e-b445-1aa1f69dde47",
+        "name": "Jane Smith",
+        "contact": "987-654-3210",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T22:22:34.286Z",
+        "created_at": "2023-10-04T18:48:02.847Z",
+        "updated_at": "2023-10-04T03:28:59.970Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baf816cc-21b8-4d48-bd5d-b5768fa4fceb",
+        "name": "Michael Brown",
+        "contact": "555-123-4567",
+        "address": "789 Oak Ave",
+        "joined_date": "2023-10-04T10:33:24.480Z",
+        "created_at": "2023-10-04T02:32:25.854Z",
+        "updated_at": "2023-10-04T05:30:02.578Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acae9fcb-4737-4932-a38d-176996f0017d",
+        "name": "Sarah Jones",
+        "contact": "888-999-0000",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T22:00:13.443Z",
+        "created_at": "2023-10-04T11:43:13.987Z",
+        "updated_at": "2023-10-04T17:39:15.711Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbb41b45-5343-43cc-9a47-6fa336c6ac91",
+        "name": "Robert Wilson",
+        "contact": "111-222-3333",
+        "address": "555 Maple Rd",
+        "joined_date": "2023-10-04T23:22:14.172Z",
+        "created_at": "2023-10-04T11:12:04.627Z",
+        "updated_at": "2023-10-04T20:23:19.496Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "9b86033b-09f8-4bbc-b9e4-90b2f170b94a",
+        "name": "John Doe",
+        "contact": "123-456-7890",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T12:59:54.933Z",
+        "created_at": "2023-10-04T18:20:27.701Z",
+        "updated_at": "2023-10-04T02:58:59.757Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "817c70dc-8701-4969-b463-e56ba6812a3d",
+        "name": "Jane Smith",
+        "contact": "987-654-3210",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T22:00:07.474Z",
+        "created_at": "2023-10-04T07:24:53.069Z",
+        "updated_at": "2023-10-04T09:38:06.205Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35bb8a54-be79-41c5-9fb1-46d7429d86e6",
+        "name": "Michael Brown",
+        "contact": "555-123-4567",
+        "address": "789 Oak Ave",
+        "joined_date": "2023-10-04T00:59:37.794Z",
+        "created_at": "2023-10-04T06:16:22.690Z",
+        "updated_at": "2023-10-04T17:06:01.869Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5146caf-5420-40b2-93fe-7c6c1a1ad6a1",
+        "name": "Sarah Jones",
+        "contact": "888-999-0000",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T20:54:56.542Z",
+        "created_at": "2023-10-04T00:26:25.039Z",
+        "updated_at": "2023-10-04T15:42:08.661Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1b62cc2-8c7d-4f4c-ac92-e94786498aab",
+        "name": "Robert Wilson",
+        "contact": "111-222-3333",
+        "address": "555 Maple Rd",
+        "joined_date": "2023-10-04T18:17:17.893Z",
+        "created_at": "2023-10-04T12:00:19.297Z",
+        "updated_at": "2023-10-04T01:18:10.902Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ed394626-02c1-47b6-9182-8852b6fb2875",
+        "email": "Stacey30@roq.tech",
+        "firstName": "Shad",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/678.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8954843-f241-4345-a2e5-fcc27b075854",
+        "email": "Lydia79@roq.tech",
+        "firstName": "Arch",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43298916",
+        "tenantId": null
+      },
+      {
+        "reference": "7694feed-84f4-4f4d-bfca-ed44b9e19772",
+        "email": "Braden8@roq.tech",
+        "firstName": "Bruce",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/916.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bd5046f2-41cf-4897-bfdb-1547922a19a8",
+        "email": "Kelton_Wiza43@roq.tech",
+        "firstName": "Myrna",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97789964",
+        "tenantId": null
+      },
+      {
+        "reference": "3bb50cb9-5786-4d8d-b7f7-e251dd974abf",
+        "email": "Frederick_Koss@roq.tech",
+        "firstName": "Jalon",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "f3d29e9c-1a15-4e98-b80b-a1441ea39c50",
+        "name": "John Doe",
+        "position": "Manager",
+        "joined_date": "2023-10-04T20:36:44.398Z",
+        "experience": 50043,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T00:56:30.259Z",
+        "updated_at": "2023-10-04T22:58:31.864Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00cbc99e-b8ca-4077-b949-da93d692d2c3",
+        "name": "Jane Smith",
+        "position": "Developer",
+        "joined_date": "2023-10-04T08:00:35.146Z",
+        "experience": 83513,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T08:18:45.113Z",
+        "updated_at": "2023-10-04T13:41:19.879Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ed3fcf5-2bde-4cbd-b6a6-f40b6b66709e",
+        "name": "Michael Brown",
+        "position": "Designer",
+        "joined_date": "2023-10-04T02:18:29.144Z",
+        "experience": 69747,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T07:59:39.612Z",
+        "updated_at": "2023-10-04T21:55:16.659Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54000d8d-c664-42dd-9862-04d9cece795a",
+        "name": "Sarah Jones",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T16:46:54.196Z",
+        "experience": 34105,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T03:35:10.588Z",
+        "updated_at": "2023-10-04T13:06:21.609Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "985e0634-9fde-43c7-afe1-851ab2a66850",
+        "name": "David Wilson",
+        "position": "Engineer",
+        "joined_date": "2023-10-04T21:15:16.460Z",
+        "experience": 63319,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T19:14:46.337Z",
+        "updated_at": "2023-10-04T17:38:14.080Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "ee50d964-8680-4276-92fa-9542d2719158",
+        "name": "Web Development",
+        "description": "Customized solutions tailored to your needs",
+        "service_type": "Consulting",
+        "price": 4134,
+        "duration": 94583,
+        "created_at": "2023-10-04T12:30:23.732Z",
+        "updated_at": "2023-10-04T12:11:36.352Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "a5cdcfb2-cb21-4bf0-b6e8-8fe5d7415d56",
+        "name": "Mobile App Development",
+        "description": "Expertise in cutting-edge technologies",
+        "service_type": "Development",
+        "price": 83058,
+        "duration": 51047,
+        "created_at": "2023-10-04T12:16:39.295Z",
+        "updated_at": "2023-10-04T16:31:21.845Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "dde3fae1-f2da-4b19-9132-8af6ce1c9a97",
+        "name": "Digital Marketing",
+        "description": "Proven strategies for business growth",
+        "service_type": "Marketing",
+        "price": 92319,
+        "duration": 7192,
+        "created_at": "2023-10-04T18:06:39.984Z",
+        "updated_at": "2023-10-04T19:32:22.843Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "7aa4f3f0-2954-427c-9995-089f6067cc95",
+        "name": "Cloud Consulting",
+        "description": "Optimizing your digital presence",
+        "service_type": "Design",
+        "price": 34917,
+        "duration": 84834,
+        "created_at": "2023-10-04T12:19:19.809Z",
+        "updated_at": "2023-10-04T12:05:57.291Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "7c406a03-772f-48b6-b074-d23db4cba1ad",
+        "name": "UI/UX Design",
+        "description": "Creating intuitive and user-friendly designs",
+        "service_type": "Strategy",
+        "price": 77482,
+        "duration": 23176,
+        "created_at": "2023-10-04T17:05:18.498Z",
+        "updated_at": "2023-10-04T18:40:02.585Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "f5893833-da4a-4685-a758-cb57219482f7",
+        "name": "John Doe",
+        "contact": "123-456-7890",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T08:29:20.203Z",
+        "created_at": "2023-10-04T21:30:09.205Z",
+        "updated_at": "2023-10-04T07:38:29.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7620d7c1-d5fe-45a2-ba1c-48da7db2e7a9",
+        "name": "Jane Smith",
+        "contact": "987-654-3210",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T07:38:36.043Z",
+        "created_at": "2023-10-04T22:22:22.449Z",
+        "updated_at": "2023-10-04T16:04:49.249Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a21f2714-d560-4c10-b4e1-3fe2935e0ae4",
+        "name": "Michael Brown",
+        "contact": "555-555-5555",
+        "address": "789 Oak St",
+        "joined_date": "2023-10-04T10:18:35.492Z",
+        "created_at": "2023-10-04T22:37:56.292Z",
+        "updated_at": "2023-10-04T02:08:12.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "888a4bfd-ecd1-49e6-a6ff-fcb19d23540e",
+        "name": "Sarah Jones",
+        "contact": "111-222-3333",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T22:29:20.366Z",
+        "created_at": "2023-10-03T23:39:33.590Z",
+        "updated_at": "2023-10-04T08:16:27.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4639fca5-d3ea-48a7-9cc9-8c06708dbb0a",
+        "name": "David Wilson",
+        "contact": "444-555-6666",
+        "address": "555 Maple St",
+        "joined_date": "2023-10-04T02:17:54.337Z",
+        "created_at": "2023-10-04T14:30:30.795Z",
+        "updated_at": "2023-10-04T17:23:56.066Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "32eac083-194a-47db-bd78-690b00658a8e",
+        "name": "John Doe",
+        "contact": "123-456-7890",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T05:22:34.000Z",
+        "created_at": "2023-10-04T17:41:07.084Z",
+        "updated_at": "2023-10-04T20:41:02.479Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fea35435-566b-47ff-843f-dd977a9b4e81",
+        "name": "Jane Smith",
+        "contact": "987-654-3210",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T11:27:11.952Z",
+        "created_at": "2023-10-04T00:48:30.899Z",
+        "updated_at": "2023-10-04T06:55:30.540Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "496c73a5-6a5e-4a68-9186-2d9326080f88",
+        "name": "Michael Brown",
+        "contact": "555-555-5555",
+        "address": "789 Oak St",
+        "joined_date": "2023-10-04T09:48:28.524Z",
+        "created_at": "2023-10-04T09:16:35.186Z",
+        "updated_at": "2023-10-04T06:48:55.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6cf8b3e-5e1f-4774-a489-b894e8c416ab",
+        "name": "Sarah Jones",
+        "contact": "111-222-3333",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T12:36:00.819Z",
+        "created_at": "2023-10-04T01:20:40.025Z",
+        "updated_at": "2023-10-04T00:31:42.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c2a3335-4c3e-475c-bb8b-fae3ff80d6f2",
+        "name": "David Wilson",
+        "contact": "444-555-6666",
+        "address": "555 Maple St",
+        "joined_date": "2023-10-04T05:38:36.501Z",
+        "created_at": "2023-10-04T17:08:17.284Z",
+        "updated_at": "2023-10-04T21:06:12.081Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6b777623-b41f-4f51-93ce-11af876d1ccd",
+        "email": "Kaylee_Funk@roq.tech",
+        "firstName": "Mabel",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77166197",
+        "tenantId": null
+      },
+      {
+        "reference": "a5aeb9fc-6722-4d21-96ed-6e501f4eeabf",
+        "email": "Harvey.Mills-Pouros@roq.tech",
+        "firstName": "Shemar",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1139.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7743eaa1-8239-4aee-8775-dee389720e04",
+        "email": "Kieran_Quitzon@roq.tech",
+        "firstName": "Layne",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/328.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfab548c-1d41-4406-890b-7d4b0ae8cf30",
+        "email": "Erwin_Lindgren@roq.tech",
+        "firstName": "Adrienne",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67042161",
+        "tenantId": null
+      },
+      {
+        "reference": "3472204f-09cc-415e-a28d-4321c46e9785",
+        "email": "Cale_Kovacek@roq.tech",
+        "firstName": "Terrell",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/718.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "0865880c-6da5-4191-b428-5b1ff08d5fe8",
+        "name": "John Doe",
+        "position": "Manager",
+        "joined_date": "2023-10-04T19:16:05.432Z",
+        "experience": 46008,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T17:29:14.912Z",
+        "updated_at": "2023-10-04T21:06:48.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "357e9a98-80a1-4dc2-a379-cccb373ad123",
+        "name": "Jane Smith",
+        "position": "Engineer",
+        "joined_date": "2023-10-04T08:59:18.226Z",
+        "experience": 64772,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T22:43:37.018Z",
+        "updated_at": "2023-10-04T21:31:21.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aad1584-43e6-460f-bee8-fbda1b46ac46",
+        "name": "Michael Brown",
+        "position": "Designer",
+        "joined_date": "2023-10-04T17:35:04.558Z",
+        "experience": 12299,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T13:15:44.841Z",
+        "updated_at": "2023-10-04T06:17:26.672Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e6314b0-61bc-4f80-87db-babba2bdbb6a",
+        "name": "Sarah Jones",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T11:20:24.828Z",
+        "experience": 73141,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T13:55:36.716Z",
+        "updated_at": "2023-10-04T13:11:54.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33d04811-7715-490d-86b9-d081a4a149c4",
+        "name": "Robert Wilson",
+        "position": "Developer",
+        "joined_date": "2023-10-04T19:39:36.971Z",
+        "experience": 20700,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T16:53:29.098Z",
+        "updated_at": "2023-10-04T04:55:22.594Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "61b6adf0-3450-45d8-91af-5d8f20304435",
+        "name": "Web Development",
+        "description": "Customized solutions for your business needs",
+        "service_type": "Consulting",
+        "price": 53870,
+        "duration": 16659,
+        "created_at": "2023-10-04T15:30:04.357Z",
+        "updated_at": "2023-10-04T01:37:10.951Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "4cc7206d-84b7-4f9b-9445-c88d11ab59e5",
+        "name": "Mobile App Development",
+        "description": "Cutting-edge technology to drive growth",
+        "service_type": "Development",
+        "price": 78419,
+        "duration": 84197,
+        "created_at": "2023-10-04T06:35:56.699Z",
+        "updated_at": "2023-10-04T07:21:27.350Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "3e1904c9-2dc7-4a43-81e6-8f34bce47b05",
+        "name": "Data Analytics",
+        "description": "Insights-driven decision making",
+        "service_type": "Analytics",
+        "price": 42405,
+        "duration": 6719,
+        "created_at": "2023-10-04T01:36:02.131Z",
+        "updated_at": "2023-10-04T08:19:45.906Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "35707780-8d4f-4a5a-b5d8-68e9bf54d3c6",
+        "name": "Cloud Consulting",
+        "description": "Optimize your cloud infrastructure",
+        "service_type": "Design",
+        "price": 81323,
+        "duration": 17361,
+        "created_at": "2023-10-04T23:16:40.737Z",
+        "updated_at": "2023-10-04T18:19:11.916Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "d2f082da-109c-4376-b1a0-11a53fcd4352",
+        "name": "UI/UX Design",
+        "description": "Intuitive and user-friendly design",
+        "service_type": "Support",
+        "price": 9014,
+        "duration": 80870,
+        "created_at": "2023-10-04T10:16:17.686Z",
+        "updated_at": "2023-10-04T15:42:05.391Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "32fcf3a2-3c3f-42c4-ae04-0736137b2be3",
+        "name": "John Doe",
+        "contact": "john.doe@example.com",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T13:15:41.743Z",
+        "created_at": "2023-10-04T01:02:17.552Z",
+        "updated_at": "2023-10-04T10:44:45.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7557a56e-c9f1-426a-ae08-57e43fdc9da7",
+        "name": "Jane Smith",
+        "contact": "jane.smith@example.com",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T19:12:36.292Z",
+        "created_at": "2023-10-04T19:19:55.964Z",
+        "updated_at": "2023-10-04T07:41:10.618Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1899c67d-3706-4de3-82f2-4ca38b8c3ed8",
+        "name": "Michael Brown",
+        "contact": "michael.brown@example.com",
+        "address": "789 Oak St",
+        "joined_date": "2023-10-03T23:57:18.149Z",
+        "created_at": "2023-10-04T17:03:04.008Z",
+        "updated_at": "2023-10-04T17:27:48.573Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "058ffd87-3231-4211-b08b-0137ce1ff1b9",
+        "name": "Sarah Jones",
+        "contact": "sarah.jones@example.com",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T22:46:46.263Z",
+        "created_at": "2023-10-04T10:13:52.675Z",
+        "updated_at": "2023-10-04T11:41:53.428Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac2309b0-7fa8-462f-b379-1afdb75bf3b2",
+        "name": "Robert Wilson",
+        "contact": "robert.wilson@example.com",
+        "address": "654 Maple St",
+        "joined_date": "2023-10-04T14:14:12.722Z",
+        "created_at": "2023-10-04T21:51:10.650Z",
+        "updated_at": "2023-10-04T21:33:35.614Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a60ed942-f4eb-46c8-8a45-59cd383c4efd",
+        "name": "John Doe",
+        "contact": "john.doe@example.com",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T13:10:41.745Z",
+        "created_at": "2023-10-04T17:05:52.329Z",
+        "updated_at": "2023-10-04T14:53:04.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be8d0062-f5f9-49fa-ac87-a5868094296b",
+        "name": "Jane Smith",
+        "contact": "jane.smith@example.com",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T03:27:29.326Z",
+        "created_at": "2023-10-04T04:50:00.066Z",
+        "updated_at": "2023-10-04T22:10:11.878Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a97ab1c2-b343-4c56-ae0e-df6e86d400a8",
+        "name": "Michael Brown",
+        "contact": "michael.brown@example.com",
+        "address": "789 Oak St",
+        "joined_date": "2023-10-04T06:22:40.360Z",
+        "created_at": "2023-10-04T10:17:38.963Z",
+        "updated_at": "2023-10-04T00:41:18.295Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9500346b-673f-42c9-bdfb-4e7212179d77",
+        "name": "Sarah Jones",
+        "contact": "sarah.jones@example.com",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T03:57:49.774Z",
+        "created_at": "2023-10-04T08:52:58.473Z",
+        "updated_at": "2023-10-04T20:03:26.453Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a15d102-855b-4c00-87bf-5bf63bd5fc8f",
+        "name": "Robert Wilson",
+        "contact": "robert.wilson@example.com",
+        "address": "654 Maple St",
+        "joined_date": "2023-10-04T06:13:31.975Z",
+        "created_at": "2023-10-04T00:08:34.538Z",
+        "updated_at": "2023-10-03T23:39:06.701Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "304f6c1e-df23-4b1a-8a0e-baddb40b795b",
+        "email": "Abigayle14@roq.tech",
+        "firstName": "Margarita",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14162626",
+        "tenantId": null
+      },
+      {
+        "reference": "c6bbc24c-e6fb-4328-8428-54653e7e7e77",
+        "email": "Troy.Shields59@roq.tech",
+        "firstName": "Lorenza",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86048505",
+        "tenantId": null
+      },
+      {
+        "reference": "c788bd10-3a12-4dca-b9b6-a57e305ea05b",
+        "email": "Al54@roq.tech",
+        "firstName": "Kacie",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/840.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b6d08d7-e908-4e1a-8891-3e26375bde1f",
+        "email": "Cierra.Blanda58@roq.tech",
+        "firstName": "Ruthie",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0cbb293-89a1-4ff5-b073-1c022db0f292",
+        "email": "Augustus41@roq.tech",
+        "firstName": "Joannie",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "74bf151c-18a9-4012-8a4c-d5b4df4cd924",
+        "name": "Alex",
+        "position": "Manager",
+        "joined_date": "2023-10-04T21:28:38.722Z",
+        "experience": 497,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T09:43:24.066Z",
+        "updated_at": "2023-10-04T03:41:53.549Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d481664-f521-487e-be6d-599de1fc3c74",
+        "name": "Emily",
+        "position": "Developer",
+        "joined_date": "2023-10-04T03:32:19.044Z",
+        "experience": 43346,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T20:10:05.732Z",
+        "updated_at": "2023-10-04T07:21:23.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09436346-f6f1-4208-9e01-892b461a60c0",
+        "name": "Daniel",
+        "position": "Designer",
+        "joined_date": "2023-10-04T22:34:54.604Z",
+        "experience": 95731,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T07:38:33.009Z",
+        "updated_at": "2023-10-04T05:18:15.686Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ca077cb-152f-4346-9d0a-315cdead75bb",
+        "name": "Olivia",
+        "position": "Marketing Specialist",
+        "joined_date": "2023-10-04T16:18:43.320Z",
+        "experience": 33954,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T02:15:07.250Z",
+        "updated_at": "2023-10-04T23:26:14.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1634ba80-61ad-4023-a932-fb4537740709",
+        "name": "Matthew",
+        "position": "Sales Representative",
+        "joined_date": "2023-10-04T22:55:40.293Z",
+        "experience": 31464,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T15:51:47.913Z",
+        "updated_at": "2023-10-04T11:55:59.814Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "9f55c2cb-ef43-44e4-9056-82e97667ee65",
+        "name": "Web Development",
+        "description": "Custom web development services",
+        "service_type": "Software Development",
+        "price": 51259,
+        "duration": 65272,
+        "created_at": "2023-10-04T04:30:56.743Z",
+        "updated_at": "2023-10-04T12:41:56.458Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "987ec904-293d-4ec0-bf47-5ace490e7128",
+        "name": "Mobile App Development",
+        "description": "Innovative mobile app solutions",
+        "service_type": "Marketing",
+        "price": 71265,
+        "duration": 79498,
+        "created_at": "2023-10-04T17:38:03.674Z",
+        "updated_at": "2023-10-04T09:54:15.828Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "173706c9-cb03-4a49-8c1d-6c2202982089",
+        "name": "Digital Marketing",
+        "description": "Effective digital marketing strategies",
+        "service_type": "Consulting",
+        "price": 62361,
+        "duration": 17199,
+        "created_at": "2023-10-04T08:49:19.506Z",
+        "updated_at": "2023-10-04T18:04:38.167Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "8eac1db6-d73a-41c4-8cb8-e7736fb76071",
+        "name": "Cloud Consulting",
+        "description": "Expert cloud consulting services",
+        "service_type": "Design",
+        "price": 85001,
+        "duration": 86389,
+        "created_at": "2023-10-04T18:51:00.623Z",
+        "updated_at": "2023-10-04T09:49:48.593Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "8a2dc9c6-a975-4142-9a13-707f39104850",
+        "name": "UI/UX Design",
+        "description": "Creative UI/UX design",
+        "service_type": "Analytics",
+        "price": 62924,
+        "duration": 16015,
+        "created_at": "2023-10-04T02:41:20.988Z",
+        "updated_at": "2023-10-04T08:48:27.131Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "5309967b-6828-442c-b26e-14fe1e76c673",
+        "name": "James",
+        "contact": "james@example.com",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T04:43:10.402Z",
+        "created_at": "2023-10-04T07:20:20.779Z",
+        "updated_at": "2023-10-04T20:37:41.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78e31f3d-edab-46fb-8658-01a730f0beac",
+        "name": "Sophia",
+        "contact": "sophia@example.com",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T13:25:45.363Z",
+        "created_at": "2023-10-04T19:59:12.152Z",
+        "updated_at": "2023-10-04T10:58:50.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d32ef5d5-7330-4478-a37f-cc47a533328a",
+        "name": "Benjamin",
+        "contact": "benjamin@example.com",
+        "address": "789 Oak St",
+        "joined_date": "2023-10-04T01:45:24.891Z",
+        "created_at": "2023-10-04T04:10:03.623Z",
+        "updated_at": "2023-10-04T22:41:00.262Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b773572-501d-4694-8680-447a40db405b",
+        "name": "Isabella",
+        "contact": "isabella@example.com",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T12:47:29.520Z",
+        "created_at": "2023-10-04T20:01:38.358Z",
+        "updated_at": "2023-10-04T10:22:00.159Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ff082d1-1082-4295-b77e-7658404c94c3",
+        "name": "Jacob",
+        "contact": "jacob@example.com",
+        "address": "654 Maple St",
+        "joined_date": "2023-10-04T16:08:46.427Z",
+        "created_at": "2023-10-04T15:28:07.876Z",
+        "updated_at": "2023-10-04T07:04:12.822Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a48d8b47-a895-4931-a0ea-7b2e83a85944",
+        "name": "Emma",
+        "contact": "emma@example.com",
+        "address": "987 Cherry Ave",
+        "joined_date": "2023-10-04T07:04:31.545Z",
+        "created_at": "2023-10-04T14:04:21.546Z",
+        "updated_at": "2023-10-04T21:57:10.408Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a69df344-8920-4241-be0a-893f14619b53",
+        "name": "Liam",
+        "contact": "liam@example.com",
+        "address": "654 Orange Blvd",
+        "joined_date": "2023-10-04T00:17:33.326Z",
+        "created_at": "2023-10-04T07:54:55.770Z",
+        "updated_at": "2023-10-04T15:47:02.755Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18caa8a4-aa66-4064-877b-07a96d36018b",
+        "name": "Olivia",
+        "contact": "olivia@example.com",
+        "address": "321 Lemon Ln",
+        "joined_date": "2023-10-04T17:09:31.819Z",
+        "created_at": "2023-10-04T10:17:09.346Z",
+        "updated_at": "2023-10-04T04:40:06.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0518233b-3b7b-473f-8e0f-d4737ad147cb",
+        "name": "Noah",
+        "contact": "noah@example.com",
+        "address": "789 Grape St",
+        "joined_date": "2023-10-04T19:24:15.761Z",
+        "created_at": "2023-10-04T20:51:15.999Z",
+        "updated_at": "2023-10-04T08:41:27.499Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca4c83c9-69ba-4aee-a4cf-72c4d21f5825",
+        "name": "Ava",
+        "contact": "ava@example.com",
+        "address": "456 Berry Rd",
+        "joined_date": "2023-10-04T05:29:38.122Z",
+        "created_at": "2023-10-04T18:11:18.310Z",
+        "updated_at": "2023-10-04T03:30:19.151Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2e836d54-a458-4f73-ba4a-f6462fb066b2",
+        "email": "Ona55@roq.tech",
+        "firstName": "Kole",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/847.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "57c3f90c-2d99-43e1-8393-633d13e9c66f",
+        "email": "Tyrese_Ullrich@roq.tech",
+        "firstName": "Hilbert",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24634621",
+        "tenantId": null
+      },
+      {
+        "reference": "050d5c3e-8ce3-451e-9593-8d7184182d77",
+        "email": "Flavio.Littel@roq.tech",
+        "firstName": "Krystel",
+        "lastName": "Steuber-Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5285942",
+        "tenantId": null
+      },
+      {
+        "reference": "0b149ad1-930b-4636-9f17-06df9a601231",
+        "email": "Allene_Corwin@roq.tech",
+        "firstName": "Rodger",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/829.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0202089d-1543-4919-974d-4e0cfc0a134c",
+        "email": "Marquise_Olson87@roq.tech",
+        "firstName": "Joel",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80918838",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "b69d044c-7983-4ccd-86d9-9c0b7c77b1dd",
+        "name": "Alex",
+        "position": "Manager",
+        "joined_date": "2023-10-04T20:48:23.590Z",
+        "experience": 75147,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T13:13:35.803Z",
+        "updated_at": "2023-10-04T19:36:21.655Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a926272f-23d4-49d2-9bac-c366045e013c",
+        "name": "Emily",
+        "position": "Developer",
+        "joined_date": "2023-10-04T07:49:22.687Z",
+        "experience": 98564,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T17:42:48.530Z",
+        "updated_at": "2023-10-04T22:58:38.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9a07fcc-5aff-4b53-8341-df29d219c2cc",
+        "name": "Daniel",
+        "position": "Designer",
+        "joined_date": "2023-10-04T18:48:18.243Z",
+        "experience": 36073,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T13:15:52.190Z",
+        "updated_at": "2023-10-04T13:45:04.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f518884-4392-404f-8cb3-8cd6151c6f65",
+        "name": "Olivia",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T06:52:46.899Z",
+        "experience": 9641,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T01:43:26.274Z",
+        "updated_at": "2023-10-04T02:16:06.743Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c38f9d70-70d0-412e-b775-baaeccb072f9",
+        "name": "Jacob",
+        "position": "Marketing",
+        "joined_date": "2023-10-04T20:07:31.298Z",
+        "experience": 50912,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T06:18:03.011Z",
+        "updated_at": "2023-10-04T07:19:03.843Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "b88bafab-c8c6-428c-bc12-397f68c6a35d",
+        "name": "Web Development",
+        "description": "Customized solutions for your business",
+        "service_type": "Consulting",
+        "price": 62175,
+        "duration": 53142,
+        "created_at": "2023-10-04T18:44:49.482Z",
+        "updated_at": "2023-10-04T19:27:40.314Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "896fb29b-9e55-4da0-9ed1-6e421ac3a46e",
+        "name": "Mobile App Development",
+        "description": "Transforming your digital presence",
+        "service_type": "Development",
+        "price": 30045,
+        "duration": 29710,
+        "created_at": "2023-10-04T10:07:34.049Z",
+        "updated_at": "2023-10-04T05:45:56.394Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "1ab5c57c-d616-40eb-a145-2a4c1c501b79",
+        "name": "Data Analytics",
+        "description": "Unlocking the power of data",
+        "service_type": "Analytics",
+        "price": 60156,
+        "duration": 1403,
+        "created_at": "2023-10-04T15:38:59.325Z",
+        "updated_at": "2023-10-04T17:17:38.019Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "9c3eca33-e685-4ce5-af7e-f3bcea8e7286",
+        "name": "Cloud Computing",
+        "description": "Scalable and secure infrastructure",
+        "service_type": "Infrastructure",
+        "price": 1640,
+        "duration": 87438,
+        "created_at": "2023-10-04T10:03:49.572Z",
+        "updated_at": "2023-10-04T16:33:00.401Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "70a464c3-a806-4977-bdbc-9048b53a1959",
+        "name": "Digital Marketing",
+        "description": "Driving growth through online channels",
+        "service_type": "Marketing",
+        "price": 56924,
+        "duration": 71855,
+        "created_at": "2023-10-04T15:22:49.024Z",
+        "updated_at": "2023-10-04T10:38:36.039Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "7bf03003-8a5e-4244-8664-06d4423e1cf7",
+        "name": "Robert",
+        "contact": "123-456-7890",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T14:37:19.492Z",
+        "created_at": "2023-10-04T01:30:57.246Z",
+        "updated_at": "2023-10-04T15:15:23.490Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4caf9bc0-5875-48e4-9be5-64127165f49f",
+        "name": "Sophia",
+        "contact": "987-654-3210",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T04:11:01.074Z",
+        "created_at": "2023-10-04T06:26:24.814Z",
+        "updated_at": "2023-10-04T14:04:20.217Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e561619-4f8d-4a6d-9f87-cbffde1532ca",
+        "name": "William",
+        "contact": "555-123-4567",
+        "address": "789 Oak Ave",
+        "joined_date": "2023-10-04T21:00:31.580Z",
+        "created_at": "2023-10-04T15:36:29.020Z",
+        "updated_at": "2023-10-04T01:19:10.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fba8f79-71c7-46f8-aebf-c358e1379b14",
+        "name": "Emma",
+        "contact": "888-999-0000",
+        "address": "321 Pine Rd",
+        "joined_date": "2023-10-04T06:01:10.020Z",
+        "created_at": "2023-10-04T00:20:26.372Z",
+        "updated_at": "2023-10-04T07:59:18.923Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8469ab56-f9d0-4eb4-9a1b-429d20cc6d97",
+        "name": "James",
+        "contact": "111-222-3333",
+        "address": "555 Maple Ln",
+        "joined_date": "2023-10-04T18:02:39.663Z",
+        "created_at": "2023-10-04T23:23:53.522Z",
+        "updated_at": "2023-10-04T09:31:48.111Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "e2a4a8fb-37b1-42eb-bdbe-120740824ec4",
+        "name": "Jennifer",
+        "contact": "444-555-6666",
+        "address": "789 Walnut Blvd",
+        "joined_date": "2023-10-04T10:39:39.333Z",
+        "created_at": "2023-10-04T04:36:22.161Z",
+        "updated_at": "2023-10-04T00:59:19.271Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e384d637-d85e-45e4-92e3-df770e987965",
+        "name": "Michael",
+        "contact": "777-888-9999",
+        "address": "987 Cedar Dr",
+        "joined_date": "2023-10-04T03:45:53.487Z",
+        "created_at": "2023-10-04T11:54:52.283Z",
+        "updated_at": "2023-10-04T06:51:04.678Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79953494-9f25-4fc8-a057-852fecc488ee",
+        "name": "Jessica",
+        "contact": "222-333-4444",
+        "address": "654 Birch Ave",
+        "joined_date": "2023-10-04T01:32:21.981Z",
+        "created_at": "2023-10-04T20:52:52.183Z",
+        "updated_at": "2023-10-04T12:01:37.931Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9685b73b-ef80-428c-8c72-cc846fb333d1",
+        "name": "Christopher",
+        "contact": "666-777-8888",
+        "address": "321 Spruce Rd",
+        "joined_date": "2023-10-04T10:57:01.926Z",
+        "created_at": "2023-10-04T05:21:29.289Z",
+        "updated_at": "2023-10-04T19:51:41.008Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e96317b0-f84c-4f53-8eed-8c665814f35a",
+        "name": "Amanda",
+        "contact": "999-000-1111",
+        "address": "111 Oak St",
+        "joined_date": "2023-10-04T17:37:41.899Z",
+        "created_at": "2023-10-04T02:37:49.965Z",
+        "updated_at": "2023-10-04T07:58:11.158Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1fd6725b-11d9-4d11-ad82-b11a27216810",
+        "email": "Price.Rowe@roq.tech",
+        "firstName": "Kayleigh",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0bba3293-69f1-48b5-bae4-ca6bcac189c1",
+        "email": "Jocelyn.Kunze@roq.tech",
+        "firstName": "Vivien",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1046.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58586291-80c3-4340-ac13-87aacc9d1914",
+        "email": "Carmella_Monahan73@roq.tech",
+        "firstName": "Vida",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1018.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eaa9ede4-13d7-465a-a4bc-a632ca3d063e",
+        "email": "Glenna12@roq.tech",
+        "firstName": "Anabel",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96950416",
+        "tenantId": null
+      },
+      {
+        "reference": "12c6b8a9-2f5e-4a24-9b8e-76818279d980",
+        "email": "Chasity_Smitham52@roq.tech",
+        "firstName": "Vanessa",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96461024",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "46ef0cd7-ea13-40e9-8eb3-800e7f5a940a",
+        "name": "Mark",
+        "position": "Manager",
+        "joined_date": "2023-10-04T06:44:56.384Z",
+        "experience": 82272,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T02:17:36.221Z",
+        "updated_at": "2023-10-04T19:17:41.738Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8ee8404-a178-4e27-80dd-5e96ea36fa0b",
+        "name": "Emily",
+        "position": "Developer",
+        "joined_date": "2023-10-04T08:46:47.276Z",
+        "experience": 55065,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T08:31:06.197Z",
+        "updated_at": "2023-10-04T20:54:14.540Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ad08ac6-def2-4f58-a039-b34edc46bbb4",
+        "name": "David",
+        "position": "Designer",
+        "joined_date": "2023-10-04T21:40:41.110Z",
+        "experience": 80676,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T12:52:42.851Z",
+        "updated_at": "2023-10-04T08:46:19.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29a42159-aa92-4192-9b43-fa8cd51df313",
+        "name": "Sophia",
+        "position": "Marketing Specialist",
+        "joined_date": "2023-10-04T02:02:51.606Z",
+        "experience": 53704,
+        "qualification": "Certified Professional",
+        "created_at": "2023-10-04T11:10:15.902Z",
+        "updated_at": "2023-10-04T15:57:30.276Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1823ddeb-43c4-47a9-a9f9-f21449401b02",
+        "name": "Daniel",
+        "position": "Sales Representative",
+        "joined_date": "2023-10-04T08:10:21.614Z",
+        "experience": 34800,
+        "qualification": "Specialized Training",
+        "created_at": "2023-10-04T19:49:40.709Z",
+        "updated_at": "2023-10-04T01:04:46.051Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "abd82078-faa7-4978-826a-621ea8df4b20",
+        "name": "Web Development",
+        "description": "Customized web solutions for your business",
+        "service_type": "Software Development",
+        "price": 67548,
+        "duration": 65280,
+        "created_at": "2023-10-04T15:54:40.558Z",
+        "updated_at": "2023-10-04T21:01:02.786Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "895b31e9-9b84-4f77-985c-5b91b83a559c",
+        "name": "Mobile App Development",
+        "description": "Mobile apps tailored to your needs",
+        "service_type": "Marketing",
+        "price": 20517,
+        "duration": 90677,
+        "created_at": "2023-10-04T21:22:57.546Z",
+        "updated_at": "2023-10-04T11:08:37.434Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "faf844f7-8a2b-4324-b1c8-b8df14a4d96d",
+        "name": "Digital Marketing",
+        "description": "Boost your online presence with our digital marketing strategies",
+        "service_type": "Consulting",
+        "price": 22780,
+        "duration": 73811,
+        "created_at": "2023-10-04T00:51:02.467Z",
+        "updated_at": "2023-10-04T01:20:31.553Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "ad773676-af23-4c8f-a37f-e389619443aa",
+        "name": "Cloud Computing",
+        "description": "Efficient and scalable cloud solutions",
+        "service_type": "Cloud Services",
+        "price": 96523,
+        "duration": 31540,
+        "created_at": "2023-10-04T11:12:10.602Z",
+        "updated_at": "2023-10-04T21:16:55.184Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "3b25821f-cf1b-4c5f-9383-7a12eb08e9cf",
+        "name": "Data Analytics",
+        "description": "Extract valuable insights from your data",
+        "service_type": "Data Analysis",
+        "price": 95316,
+        "duration": 76175,
+        "created_at": "2023-10-03T23:56:14.065Z",
+        "updated_at": "2023-10-04T07:29:32.946Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "bacd2ac1-abc4-473a-baaf-1e8f7918771b",
+        "name": "James Smith",
+        "contact": "123-456-7890",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T21:46:57.079Z",
+        "created_at": "2023-10-04T07:17:59.321Z",
+        "updated_at": "2023-10-04T12:06:00.122Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "285d4694-f3ea-456e-bc1f-7bd7205effbc",
+        "name": "Emma Johnson",
+        "contact": "987-654-3210",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T18:25:03.205Z",
+        "created_at": "2023-10-04T20:03:29.810Z",
+        "updated_at": "2023-10-04T16:34:59.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10355191-318d-4bef-8c4f-74daf5478fd6",
+        "name": "Christopher Brown",
+        "contact": "555-123-4567",
+        "address": "789 Oak St",
+        "joined_date": "2023-10-04T16:21:54.889Z",
+        "created_at": "2023-10-04T16:58:21.276Z",
+        "updated_at": "2023-10-04T07:19:12.712Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07cf0918-f275-4a23-94c4-b43314bc4015",
+        "name": "Olivia Davis",
+        "contact": "888-999-0000",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T14:56:37.298Z",
+        "created_at": "2023-10-04T12:28:25.665Z",
+        "updated_at": "2023-10-04T00:58:06.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38b219c1-ce2b-4987-875e-8a9b07fcdcbd",
+        "name": "William Wilson",
+        "contact": "444-555-6666",
+        "address": "654 Maple St",
+        "joined_date": "2023-10-04T06:23:39.010Z",
+        "created_at": "2023-10-04T11:38:38.589Z",
+        "updated_at": "2023-10-04T09:24:17.080Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d29b5f25-f04f-4173-a008-1b395df733a7",
+        "name": "Alexandra",
+        "contact": "111-222-3333",
+        "address": "111 First Ave",
+        "joined_date": "2023-10-04T21:27:31.813Z",
+        "created_at": "2023-10-04T09:00:16.839Z",
+        "updated_at": "2023-10-04T19:43:15.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff332e01-f79c-4007-97cf-096123c8694a",
+        "name": "Benjamin",
+        "contact": "444-555-6666",
+        "address": "222 Second Ave",
+        "joined_date": "2023-10-04T19:33:35.575Z",
+        "created_at": "2023-10-04T17:34:18.025Z",
+        "updated_at": "2023-10-03T23:59:20.720Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f49efd8b-9f08-482e-ae2b-533807c97820",
+        "name": "Charlotte",
+        "contact": "777-888-9999",
+        "address": "333 Third Ave",
+        "joined_date": "2023-10-04T01:44:51.657Z",
+        "created_at": "2023-10-04T17:32:12.646Z",
+        "updated_at": "2023-10-04T09:33:39.392Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e3525d7-daf6-4dfd-8f96-e066136346fc",
+        "name": "David",
+        "contact": "000-111-2222",
+        "address": "444 Fourth Ave",
+        "joined_date": "2023-10-04T06:43:12.095Z",
+        "created_at": "2023-10-04T18:11:13.025Z",
+        "updated_at": "2023-10-04T15:19:28.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f30aa591-2fba-46cd-914c-5da12b72bb51",
+        "name": "Emily",
+        "contact": "333-444-5555",
+        "address": "555 Fifth Ave",
+        "joined_date": "2023-10-04T05:24:10.497Z",
+        "created_at": "2023-10-04T11:19:57.708Z",
+        "updated_at": "2023-10-04T22:02:59.469Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d4bc1013-5aa5-4f6d-a738-bca7853effc2",
+        "email": "Abdiel20@roq.tech",
+        "firstName": "Evan",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22572544",
+        "tenantId": null
+      },
+      {
+        "reference": "01890765-2b73-49cc-8633-f684fadd4425",
+        "email": "Elisha55@roq.tech",
+        "firstName": "Easter",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39865633",
+        "tenantId": null
+      },
+      {
+        "reference": "ea02c698-4373-4433-848d-cd4aa71a499d",
+        "email": "Yazmin42@roq.tech",
+        "firstName": "Darius",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87119804",
+        "tenantId": null
+      },
+      {
+        "reference": "16321b67-7870-4e1b-9e47-463c19916834",
+        "email": "Alejandra89@roq.tech",
+        "firstName": "Georgiana",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95128925",
+        "tenantId": null
+      },
+      {
+        "reference": "e547112d-2ca7-449e-b02d-b66ae4367e64",
+        "email": "Marcellus62@roq.tech",
+        "firstName": "Ben",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35701580",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "06dfd93f-b8ba-47d5-a07c-fa7ffa12013c",
+        "name": "Mark Johnson",
+        "position": "Manager",
+        "joined_date": "2023-10-04T03:26:00.159Z",
+        "experience": 98846,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-04T06:03:03.775Z",
+        "updated_at": "2023-10-04T22:59:08.897Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0edebfac-13df-44e7-94fc-bcd6adab7ca1",
+        "name": "Emily Davis",
+        "position": "Engineer",
+        "joined_date": "2023-10-04T02:25:26.615Z",
+        "experience": 32380,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T08:15:22.801Z",
+        "updated_at": "2023-10-04T00:54:33.228Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6f1f830-3ff9-4a29-a36c-3e2b7820912c",
+        "name": "Christopher Lee",
+        "position": "Designer",
+        "joined_date": "2023-10-04T06:34:51.274Z",
+        "experience": 10730,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T06:55:24.465Z",
+        "updated_at": "2023-10-04T09:15:56.815Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "093728ea-4324-45a5-8f61-a192ebe9eb42",
+        "name": "Olivia Clark",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T10:15:30.362Z",
+        "experience": 60236,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T11:30:34.216Z",
+        "updated_at": "2023-10-04T11:10:50.282Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "424aa8f5-c50b-49fa-9187-9f91de4b42ba",
+        "name": "Daniel Martinez",
+        "position": "Developer",
+        "joined_date": "2023-10-04T19:25:25.750Z",
+        "experience": 51309,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T19:45:19.875Z",
+        "updated_at": "2023-10-04T00:08:27.207Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "dfd4d0df-2d43-4522-b096-7740dec9b461",
+        "name": "Web Development",
+        "description": "Building modern and responsive websites",
+        "service_type": "Software Development",
+        "price": 10924,
+        "duration": 77529,
+        "created_at": "2023-10-04T05:00:46.955Z",
+        "updated_at": "2023-10-04T20:34:43.673Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "33f05eed-68c6-4d24-ae55-0cc009b5aa5d",
+        "name": "Mobile App Development",
+        "description": "Creating innovative mobile applications",
+        "service_type": "Consulting",
+        "price": 57104,
+        "duration": 51168,
+        "created_at": "2023-10-04T00:35:42.394Z",
+        "updated_at": "2023-10-03T23:37:24.049Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "501ecda6-38a4-4e1e-bfec-190e66b2a040",
+        "name": "Digital Marketing",
+        "description": "Driving growth through online marketing strategies",
+        "service_type": "Marketing",
+        "price": 44111,
+        "duration": 63319,
+        "created_at": "2023-10-04T12:03:11.456Z",
+        "updated_at": "2023-10-04T10:23:35.564Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "18bd8c92-4171-4a3d-b1e8-74eee8857ca6",
+        "name": "Cloud Consulting",
+        "description": "Helping businesses migrate to the cloud",
+        "service_type": "Design",
+        "price": 70668,
+        "duration": 43730,
+        "created_at": "2023-10-04T01:26:30.395Z",
+        "updated_at": "2023-10-04T06:08:52.542Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "6f11e15a-25d3-4c8d-ab0d-93e6fc336098",
+        "name": "UI/UX Design",
+        "description": "Designing user-friendly interfaces",
+        "service_type": "IT Services",
+        "price": 18061,
+        "duration": 37578,
+        "created_at": "2023-10-04T20:40:28.127Z",
+        "updated_at": "2023-10-04T09:17:16.914Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "652aa7bd-e05b-4f77-9af1-22e3bd3a9989",
+        "name": "David Johnson",
+        "contact": "555-1234",
+        "address": "123 Main St",
+        "joined_date": "2023-10-04T00:32:01.745Z",
+        "created_at": "2023-10-04T07:17:56.185Z",
+        "updated_at": "2023-10-04T16:11:52.389Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60ad67bd-d0d8-4c5a-b482-d531717be06b",
+        "name": "Sophia Davis",
+        "contact": "555-5678",
+        "address": "456 Elm St",
+        "joined_date": "2023-10-04T00:08:03.953Z",
+        "created_at": "2023-10-04T06:46:02.649Z",
+        "updated_at": "2023-10-04T16:30:19.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63d1489a-3b8b-4f0a-b8b6-20943a7d9990",
+        "name": "Matthew Lee",
+        "contact": "555-9876",
+        "address": "789 Oak St",
+        "joined_date": "2023-10-04T11:38:20.935Z",
+        "created_at": "2023-10-04T10:08:56.680Z",
+        "updated_at": "2023-10-04T13:17:45.532Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17c9c56e-bb8c-4eb1-9d0b-f5b97559ffd6",
+        "name": "Ava Clark",
+        "contact": "555-4321",
+        "address": "321 Pine St",
+        "joined_date": "2023-10-04T22:00:36.602Z",
+        "created_at": "2023-10-04T16:06:23.058Z",
+        "updated_at": "2023-10-04T16:18:58.733Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "477d897f-d98e-4b29-bef4-fa741cd2e941",
+        "name": "James Martinez",
+        "contact": "555-8765",
+        "address": "654 Maple St",
+        "joined_date": "2023-10-04T10:10:04.250Z",
+        "created_at": "2023-10-04T09:28:04.241Z",
+        "updated_at": "2023-10-04T14:46:26.235Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "6e250974-bbbe-461b-88fe-a6f5a7afdfd9",
+        "name": "Jennifer Johnson",
+        "contact": "555-1111",
+        "address": "987 Cherry St",
+        "joined_date": "2023-10-04T16:07:30.156Z",
+        "created_at": "2023-10-04T21:27:26.529Z",
+        "updated_at": "2023-10-04T17:00:17.630Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1be27bb-6a6d-4d79-b0d3-93c73f61a559",
+        "name": "William Davis",
+        "contact": "555-2222",
+        "address": "654 Plum St",
+        "joined_date": "2023-10-04T05:02:43.563Z",
+        "created_at": "2023-10-04T00:02:00.622Z",
+        "updated_at": "2023-10-04T08:46:20.290Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5c52850-8ae6-4e53-b1e5-68fa228aa8c1",
+        "name": "Emma Lee",
+        "contact": "555-3333",
+        "address": "321 Berry St",
+        "joined_date": "2023-10-04T22:28:44.776Z",
+        "created_at": "2023-10-04T01:40:51.970Z",
+        "updated_at": "2023-10-04T16:52:35.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e04927e7-7e35-44ef-8e68-d5893272fa91",
+        "name": "Liam Clark",
+        "contact": "555-4444",
+        "address": "876 Grape St",
+        "joined_date": "2023-10-04T21:29:21.157Z",
+        "created_at": "2023-10-04T06:16:00.403Z",
+        "updated_at": "2023-10-04T20:38:50.620Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdd6563e-6bd6-4317-a28e-c48ad20ecba7",
+        "name": "Olivia Martinez",
+        "contact": "555-5555",
+        "address": "543 Lemon St",
+        "joined_date": "2023-10-04T18:04:13.130Z",
+        "created_at": "2023-10-04T13:48:17.171Z",
+        "updated_at": "2023-10-04T02:27:23.478Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8cd0053f-9b44-4437-be5c-c1f375135731",
+        "email": "Alec.Hilll@roq.tech",
+        "firstName": "Skylar",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98258618",
+        "tenantId": null
+      },
+      {
+        "reference": "c96e5d7a-4cbc-4e4f-88a1-841311b0f7f6",
+        "email": "Murphy.Bednar86@roq.tech",
+        "firstName": "Cristian",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14693349",
+        "tenantId": null
+      },
+      {
+        "reference": "0d944b40-8fd5-4694-a9e7-13955ef3890a",
+        "email": "Remington3@roq.tech",
+        "firstName": "Tracy",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80908348",
+        "tenantId": null
+      },
+      {
+        "reference": "a321aac6-4124-4af6-bf11-8cd58995c9af",
+        "email": "Araceli.Rempel26@roq.tech",
+        "firstName": "Sheila",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52174934",
+        "tenantId": null
+      },
+      {
+        "reference": "6aee3107-9237-4c43-8ba2-16fe14825592",
+        "email": "Edgardo34@roq.tech",
+        "firstName": "Ricardo",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/115.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "dc912226-7ac8-4537-8ebc-e13da2bfd11b",
+        "name": "John Doe",
+        "position": "Manager",
+        "joined_date": "2023-10-04T03:39:03.281Z",
+        "experience": 11455,
+        "qualification": "Bachelor's Degree",
+        "created_at": "2023-10-03T23:46:22.352Z",
+        "updated_at": "2023-10-04T18:52:38.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a2f74f4-0b26-4319-8f03-41dcbf1d37d5",
+        "name": "Jane Smith",
+        "position": "Developer",
+        "joined_date": "2023-10-04T22:11:00.077Z",
+        "experience": 55593,
+        "qualification": "Master's Degree",
+        "created_at": "2023-10-04T20:45:04.647Z",
+        "updated_at": "2023-10-03T23:35:52.174Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c199aea-a0d5-4cfa-9bb3-e72b63d59476",
+        "name": "Michael Brown",
+        "position": "Designer",
+        "joined_date": "2023-10-04T17:10:57.511Z",
+        "experience": 86006,
+        "qualification": "PhD",
+        "created_at": "2023-10-04T12:46:00.772Z",
+        "updated_at": "2023-10-04T09:21:41.577Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "073508ee-fc62-46c6-be3b-c593fa8318e1",
+        "name": "Sarah Jones",
+        "position": "Analyst",
+        "joined_date": "2023-10-04T16:51:04.215Z",
+        "experience": 5552,
+        "qualification": "Certification",
+        "created_at": "2023-10-04T11:08:56.952Z",
+        "updated_at": "2023-10-04T05:42:39.825Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76b9de1b-e797-47e0-952d-3621d0caacbc",
+        "name": "David Wilson",
+        "position": "Sales Executive",
+        "joined_date": "2023-10-04T17:55:54.740Z",
+        "experience": 85218,
+        "qualification": "Diploma",
+        "created_at": "2023-10-04T10:44:56.772Z",
+        "updated_at": "2023-10-04T07:25:39.949Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "8dae73d2-278f-48f2-a8e8-7d3ba8e42dde",
+        "name": "Web Development",
+        "description": "Customized solutions tailored to your needs",
+        "service_type": "Software Development",
+        "price": 6069,
+        "duration": 67319,
+        "created_at": "2023-10-04T17:07:40.499Z",
+        "updated_at": "2023-10-04T11:13:43.858Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "18c40fcd-c0f9-40c7-b434-fc8e4c8059f4",
+        "name": "Mobile App Development",
+        "description": "Cutting-edge technology for your business",
+        "service_type": "Consulting",
+        "price": 26812,
+        "duration": 38000,
+        "created_at": "2023-10-04T01:23:39.381Z",
+        "updated_at": "2023-10-04T03:13:41.623Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "3f9256a4-51d9-46b8-82e4-3376026370ab",
+        "name": "Data Analytics",
+        "description": "Insights-driven decision making",
+        "service_type": "Data Science",
+        "price": 79755,
+        "duration": 99797,
+        "created_at": "2023-10-04T18:57:56.643Z",
+        "updated_at": "2023-10-04T08:05:36.548Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "10aa0552-2a2a-4724-afbc-179cf4be9352",
+        "name": "Cloud Computing",
+        "description": "Scalable and secure infrastructure",
+        "service_type": "Cloud Services",
+        "price": 40879,
+        "duration": 90054,
+        "created_at": "2023-10-04T04:14:15.240Z",
+        "updated_at": "2023-10-04T09:15:15.937Z",
+        "startup_id": "main_entity_pk"
+      },
+      {
+        "id": "1671c090-bfe7-4d43-9e89-a28dab0bbd7c",
+        "name": "Artificial Intelligence",
+        "description": "Intelligent automation for efficiency",
+        "service_type": "Machine Learning",
+        "price": 95514,
+        "duration": 20024,
+        "created_at": "2023-10-04T13:02:16.664Z",
+        "updated_at": "2023-10-04T01:46:55.380Z",
+        "startup_id": "main_entity_pk"
+      }
+    ],
+    "owner": [
+      {
+        "id": "d518ceea-2524-42f6-a973-9b2585e2b3f8",
+        "name": "John Doe",
+        "contact": "123-456-7890",
+        "address": "123 Main Street",
+        "joined_date": "2023-10-04T04:14:42.309Z",
+        "created_at": "2023-10-04T16:50:38.524Z",
+        "updated_at": "2023-10-04T08:20:56.828Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a44da3e9-74cf-437c-bea3-d6778b4b9336",
+        "name": "Jane Smith",
+        "contact": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "joined_date": "2023-10-04T16:35:46.907Z",
+        "created_at": "2023-10-04T04:02:42.321Z",
+        "updated_at": "2023-10-04T09:25:33.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bdc740c-92b4-4fcd-a8c4-306141df5366",
+        "name": "Michael Brown",
+        "contact": "555-123-4567",
+        "address": "789 Oak Lane",
+        "joined_date": "2023-10-04T23:08:25.244Z",
+        "created_at": "2023-10-04T06:21:00.842Z",
+        "updated_at": "2023-10-04T17:10:15.705Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5650dc69-8741-4c9f-94ab-a90dc7dc3bb3",
+        "name": "Sarah Jones",
+        "contact": "888-999-0000",
+        "address": "321 Pine Road",
+        "joined_date": "2023-10-04T11:16:10.498Z",
+        "created_at": "2023-10-04T06:26:45.227Z",
+        "updated_at": "2023-10-04T15:02:25.775Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9f0afff-eda9-4191-8fe2-d70ccee92cf1",
+        "name": "David Wilson",
+        "contact": "111-222-3333",
+        "address": "555 Maple Drive",
+        "joined_date": "2023-10-04T01:42:47.177Z",
+        "created_at": "2023-10-04T01:58:21.826Z",
+        "updated_at": "2023-10-04T21:59:20.691Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "4ac61964-538a-4d52-848a-cbe594b20158",
+        "name": "John Doe",
+        "contact": "123-456-7890",
+        "address": "123 Main Street",
+        "joined_date": "2023-10-04T06:37:05.255Z",
+        "created_at": "2023-10-04T09:57:39.783Z",
+        "updated_at": "2023-10-04T04:21:38.947Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4de22a0-0b1a-481a-897c-08e9e834ee3a",
+        "name": "Jane Smith",
+        "contact": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "joined_date": "2023-10-04T10:56:01.866Z",
+        "created_at": "2023-10-04T12:38:10.964Z",
+        "updated_at": "2023-10-04T20:58:27.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8fe7192-d212-41c4-b9f9-4600919981f7",
+        "name": "Michael Brown",
+        "contact": "555-123-4567",
+        "address": "789 Oak Lane",
+        "joined_date": "2023-10-04T09:05:41.756Z",
+        "created_at": "2023-10-04T17:26:09.025Z",
+        "updated_at": "2023-10-04T03:07:08.796Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32d45378-6c6c-4a07-823f-d702eaf1f6e5",
+        "name": "Sarah Jones",
+        "contact": "888-999-0000",
+        "address": "321 Pine Road",
+        "joined_date": "2023-10-04T21:13:39.123Z",
+        "created_at": "2023-10-04T08:23:51.681Z",
+        "updated_at": "2023-10-04T06:31:24.271Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a241795-a431-46a0-bbe6-3c0d21c33688",
+        "name": "David Wilson",
+        "contact": "111-222-3333",
+        "address": "555 Maple Drive",
+        "joined_date": "2023-10-04T13:31:55.863Z",
+        "created_at": "2023-10-04T19:23:21.145Z",
+        "updated_at": "2023-10-04T04:51:49.737Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "81b87898-4bfe-4233-9f3a-97df9b811586",
+        "email": "Ephraim31@roq.tech",
+        "firstName": "Tyrell",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/42.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "219b4926-9661-4dd8-b971-18b652a5de55",
+        "email": "Candido27@roq.tech",
+        "firstName": "Nash",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15782290",
+        "tenantId": null
+      },
+      {
+        "reference": "c35c780f-16d6-4550-bf32-b2e198e7c1bf",
+        "email": "Kieran.Hayes@roq.tech",
+        "firstName": "Vergie",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1014.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d36086fa-09ce-4c16-9a23-38e4c8c0f873",
+        "email": "Lamar_Emard-Huels@roq.tech",
+        "firstName": "Elisabeth",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b81ef5e-2dee-479e-9b40-313420cd9eb1",
+        "email": "Jane.Jenkins31@roq.tech",
+        "firstName": "Carrie",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1242.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
